@@ -1,0 +1,173 @@
+/* SECTION SIDE */
+section.side-container {
+    position: relative;
+    background-color: #18175B;
+    height: 100%;
+}
+
+section.side-container section.group-content {
+    position: relative;
+    height: 100%;
+    border: 1px solid transparent;
+}
+
+section.side-container div.content-container {
+    position: relative;
+    margin: 70px 0;
+    margin-inline: 80px;
+    z-index: 2;
+    /* border: 1px solid pink; */
+}
+
+section.side-container div.content-container img.logo {
+    width: 130px;
+}
+
+section.side-container div.content-container div.typograph-content {
+    margin-top: 130px;
+}
+
+section.side-container div.content-container h1 {
+    font-size: 36px;
+    color: white;
+}
+
+section.side-container div.content-container p {
+    margin-top: 42px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* STRIPS */
+section.side-container div.content-container div.strips {
+    margin: 38px 0;
+}
+
+section.side-container div.content-container div.strips button {
+    width: 40px;
+    height: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+
+section.side-container div.content-container div.strips button.one {
+    margin-right: 14px;
+}
+
+section.side-container div.content-container div.strips button.two {
+    margin-right: 14px;
+}
+
+section.side-container div.content-container div.strips button.active {
+    background-color: white;
+}
+
+/* SOCIAL MEDIA */
+section.side-container div.content-container div.social-media {
+    margin-top: 60px;
+}
+
+section.side-container div.content-container div.social-media a {
+    width: fit-content;
+    text-decoration: none;
+}
+
+section.side-container div.content-container div.social-media a.fb img {
+    width: 14px;
+    margin-right: 38px;
+}
+
+section.side-container div.content-container div.social-media a.twt img {
+    width: 33px;
+    margin-right: 38px;
+}
+
+section.side-container div.content-container div.social-media a.linkedIn img {
+    width: 32px;
+}
+
+/* Footer */
+section.side-container footer {
+    margin-top: 280px;
+}
+
+section.side-container footer a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+section.side-container footer a.privacy-policy {
+    margin-right: 28px;
+}
+
+section.side-container footer a.contact {
+    margin-right: 28px;
+}
+
+/* DECORATOR */
+div.decorator {
+    position: absolute;
+    left: 0;
+    top: 0px;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+div.decorator img.bubble-top {
+    transform: translateX(350px);
+    width: 100%;
+}
+
+div.decorator img.bubble-down {
+    width: 300px;
+    /* border: 1px solid red; */
+}
+
+@media only screen and (max-width: 1024px) {
+
+    section.side-container div.content-container img.logo {
+        width: 100px;
+    }
+
+    section.side-container div.content-container {
+        position: relative;
+        margin: 50px 0;
+        margin-inline: 40px;
+        z-index: 2;
+    }
+
+    section.side-container div.content-container h1 {
+        font-size: 30px;
+        /* border: 1px solid red; */
+    }
+
+    section.side-container div.content-container p {
+        font-size: 16px;
+    }
+
+    section.side-container div.content-container div.social-media a.fb img {
+        width: 12px;
+    }
+    
+    section.side-container div.content-container div.social-media a.twt img {
+        width: 28px;
+    }
+    
+    section.side-container div.content-container div.social-media a.linkedIn img {
+        width: 27px;
+    }
+
+    section.side-container footer a {
+        font-size: 12px;
+    }
+    
+}

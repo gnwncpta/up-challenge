@@ -1,0 +1,179 @@
+main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    overflow: hidden;
+    /* border: 1px solid pink; */
+}
+
+/* SECTION FORM */
+section.form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+section.form section.form-content .typograph h1 {
+    font-size: 38px;
+    color: #2B3C53;
+}
+
+section.form section.form-content .typograph p {
+    margin-top: 7px;
+    font-size: 20px;
+    color: #1b1a607c;
+}
+
+section.form section.form-content .form {
+    margin: 50px 0;
+}
+
+section.form section.form-content .form div {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.form section.form-content .form div label {
+    cursor: pointer;
+    font-size: 16px;
+    color: 364962;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #364962;
+}
+
+section.form section.form-content .form div input {
+    width: 477px;
+    padding: 20px 13px;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+}
+
+section.form section.form-content .form div input:focus {
+    outline-color: #3431d1;
+    outline-offset: 2px;
+}
+
+section.form section.form-content .form div input::placeholder {
+    color: #D1D7DF;
+}
+
+section.form section.form-content .agreement {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.form section.form-content .agreement div.agree-check {
+    display: flex;
+    align-items: center;
+}
+
+section.form section.form-content .agreement div.agree-check input {
+    cursor: pointer;
+    border: 1px solid #E8E8E8;
+}
+
+section.form section.form-content .agreement div.agree-check label {
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #364962;
+}
+
+section.form section.form-content .agreement a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1A195F;
+    font-weight: 700;
+}
+
+section.form section.form-content .buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.form section.form-content .buttons button {
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+section.form section.form-content .buttons button.sign-up {
+    color: white;
+    background-color: #1A195F;
+    margin-bottom: 10px;
+    padding-block: 20px;
+}
+
+section.form section.form-content .buttons button.sign-up-google {
+    padding-block: 16px;
+    color: #757492;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #E8E8E8;
+    background-color: white;
+}
+
+section.form section.form-content .buttons button.sign-up-google img {
+    margin-right: 18px;
+    width: 26px;
+}
+
+@media only screen and (max-width: 1024px) {
+    main {
+        grid-template-columns: 40% 60%;
+        /* border: 1px solid pink; */
+    }
+
+    section.form section.form-content .typograph h1 {
+        font-size: 28px;
+        color: #2B3C53;
+    }
+    
+    section.form section.form-content .typograph p {
+        margin-top: 7px;
+        font-size: 16px;
+        color: #1b1a607c;
+    }
+
+    section.form section.form-content .form div input {
+        width: 377px;
+        padding: 18px 13px;
+        border: 1px solid #E8E8E8;
+        border-radius: 4px;
+    }
+
+    section.form section.form-content .form div label {
+        font-size: 14px;
+    }
+
+    section.form section.form-content .agreement div.agree-check input {
+        border: 1px solid #E8E8E8;
+        width: 16px;
+    }
+
+    section.form section.form-content .buttons button.sign-up {
+        padding-block: 18px;
+        font-size: 16px;
+    }
+
+    section.form section.form-content .buttons button.sign-up-google {
+        padding-block: 14px;
+        font-size: 16px;
+    }
+
+    section.form section.form-content .buttons button.sign-up-google img {
+        margin-right: 18px;
+        width: 24px;
+    }
+    
+}
